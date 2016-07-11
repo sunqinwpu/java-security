@@ -10,13 +10,23 @@
     <description>my java security study</description>
 
 	<properties>
-	    <java_source_version>1.7</java_source_version>
-	    <java_target_version>1.7</java_target_version>
+	    <java_source_version>1.8</java_source_version>
+	    <java_target_version>1.8</java_target_version>
 	    <no.private.repo/>
 	    <springframework.version>3.2.4.RELEASE</springframework.version>
 	</properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk15on</artifactId>
+            <version>1.54</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.10</version>
+        </dependency>
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
